@@ -41,22 +41,31 @@ body {
 }
 
 main {
-    width: 300px;
+    width: 290px;
     background-color: hsl(216, 50%, 16%);
     margin: auto;
     border-radius: 15px;
-    
+    box-shadow: 0px 10px 30px;
+}
+
+.img-cima {
+    margin-top: 15px;
+    text-align: center;
 }
 
 .imgcima {
-    width: 60%;
+    width: 90%;
     border-radius: 7px;
+}
+
+.imgcima:hover {
+    cursor: pointer;
 }
 
 .texto {
     padding: 15px;
-    
 }
+
 .texto > h1 {
     font-size: 19px;
     font-family: 'Outfit';
@@ -65,10 +74,75 @@ main {
     margin-bottom: 10px;
 }
 
+.texto > h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 .frase {
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Outfit';
     color: hsl(215, 51%, 70%);
     font-weight: 300;
+    line-height: 25px;
+}
 
+.num {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.cripto {
+    margin-left: 7px;
+    margin-right: 90px;
+    font-family: 'Outfit';
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+}
+
+.dias {
+    margin-left: 7px;
+    font-family: 'Outfit';
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.baixo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgbaixo > img {
+    width: 40px;
+    padding: 1px;
+    margin: 15px;
+    border-style:solid;
+    border-radius: 70px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.textobaixo {
+   margin: auto;
+   font-family: 'Outfit';
+   color: hsl(215, 51%, 70%);
+   font-weight: 400;
+   font-size: 14px;
+}
+
+.nome {
+    color: white;
+}
+
+.nome:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
+
+hr {
+    border-color: hsl(215, 51%, 70%);
+    width: 260px;
+    margin: auto;
 }
