@@ -138,7 +138,6 @@ main {
 .nome:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
-    
 }
 
 hr {
